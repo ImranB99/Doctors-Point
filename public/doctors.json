@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Emily Carter",
+    "specialty": "Cardiologist",
+    "gender": "Female",
+    "email": "emily.carter@healthcareclinic.com",
+    "phone": "+1-202-555-0123",
+    "address": {
+      "street": "123 Heartbeat Lane",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "available_days": ["Monday", "Wednesday", "Friday"],
+    "available_time": "09:00 AM - 03:00 PM",
+    "fee": 150,
+    "currency": "USD",
+    "rating": 4.8,
+    "image": "https://plus.unsplash.com/premium_photo-1682145161569-1ed312491904?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjUxfHxkb2N0b3J8ZW58MHx8MHx8fDA%3D",
+    "experience": "12 years",
+    "registration_no": "NYC-20230987",
+    "current_hospital": "Mount Sinai Hospital"
+  },
+  {
+    "id": 2,
+    "name": "Dr. James Patel",
+    "specialty": "Dermatologist",
+    "gender": "Male",
+    "email": "james.patel@skinclinic.com",
+    "phone": "+1-312-555-0147",
+    "address": {
+      "street": "456 SkinCare Blvd",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60616"
+    },
+    "available_days": ["Tuesday", "Thursday"],
+    "available_time": "10:00 AM - 05:00 PM",
+    "fee": 120,
+    "currency": "USD",
+    "rating": 4.5,
+    "image": "https://plus.unsplash.com/premium_photo-1658506671316-0b293df7c72b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9jdG9yfGVufDB8fDB8fHww",
+    "experience": "9 years",
+    "registration_no": "CHI-20180912",
+    "current_hospital": "Rush University Medical Center"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Laura Nguyen",
+    "specialty": "Pediatrician",
+    "gender": "Female",
+    "email": "laura.nguyen@childhealth.com",
+    "phone": "+1-415-555-0198",
+    "address": {
+      "street": "789 Happy Kids Way",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94103"
+    },
+    "available_days": ["Monday", "Tuesday", "Thursday"],
+    "available_time": "08:00 AM - 02:00 PM",
+    "fee": 100,
+    "currency": "USD",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D",
+    "experience": "10 years",
+    "registration_no": "CA-20150789",
+    "current_hospital": "UCSF Benioff Children's Hospital"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Mark Anderson",
+    "specialty": "Orthopedic Surgeon",
+    "gender": "Male",
+    "email": "mark.anderson@boneclinic.com",
+    "phone": "+1-305-555-0111",
+    "address": {
+      "street": "101 Bone Street",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33101"
+    },
+    "available_days": ["Monday", "Thursday"],
+    "available_time": "11:00 AM - 06:00 PM",
+    "fee": 180,
+    "currency": "USD",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1612276529731-4b21494e6d71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D",
+    "experience": "15 years",
+    "registration_no": "FL-20060745",
+    "current_hospital": "Jackson Memorial Hospital"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Sarah Johnson",
+    "specialty": "Neurologist",
+    "gender": "Female",
+    "email": "sarah.johnson@brainhealth.com",
+    "phone": "+1-702-555-0222",
+    "address": {
+      "street": "202 Nerve Ave",
+      "city": "Las Vegas",
+      "state": "NV",
+      "zip": "89101"
+    },
+    "available_days": ["Wednesday", "Friday"],
+    "available_time": "09:30 AM - 04:30 PM",
+    "fee": 200,
+    "currency": "USD",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D",
+    "experience": "11 years",
+    "registration_no": "NV-20130867",
+    "current_hospital": "Sunrise Hospital and Medical Center"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Michael Lee",
+    "specialty": "Oncologist",
+    "gender": "Male",
+    "email": "michael.lee@cancercenter.com",
+    "phone": "+1-213-555-0333",
+    "address": {
+      "street": "303 Hope Blvd",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90001"
+    },
+    "available_days": ["Tuesday", "Thursday"],
+    "available_time": "08:00 AM - 01:00 PM",
+    "fee": 220,
+    "currency": "USD",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1612531386530-97286d97c2d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D",
+    "experience": "13 years",
+    "registration_no": "CA-20091234",
+    "current_hospital": "Cedars-Sinai Medical Center"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Olivia Parker",
+    "specialty": "Psychiatrist",
+    "gender": "Female",
+    "email": "olivia.parker@mindclinic.com",
+    "phone": "+1-214-555-0777",
+    "address": {
+      "street": "404 Wellness Way",
+      "city": "Dallas",
+      "state": "TX",
+      "zip": "75201"
+    },
+    "available_days": ["Monday", "Wednesday"],
+    "available_time": "10:00 AM - 04:00 PM",
+    "fee": 140,
+    "currency": "USD",
+    "rating": 4.6,
+    "image": "https://plus.unsplash.com/premium_photo-1681967035389-84aabd80cb1e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjV8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D",
+    "experience": "8 years",
+    "registration_no": "TX-20161045",
+    "current_hospital": "UT Southwestern Medical Center"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Daniel Kim",
+    "specialty": "ENT Specialist",
+    "gender": "Male",
+    "email": "daniel.kim@earnoseclinic.com",
+    "phone": "+1-206-555-0888",
+    "address": {
+      "street": "505 Sound St",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "available_days": ["Tuesday", "Friday"],
+    "available_time": "09:00 AM - 02:00 PM",
+    "fee": 110,
+    "currency": "USD",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1700041785712-649e859d9909?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D",
+    "experience": "7 years",
+    "registration_no": "WA-20181176",
+    "current_hospital": "Harborview Medical Center"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Grace White",
+    "specialty": "Endocrinologist",
+    "gender": "Female",
+    "email": "grace.white@endoclinic.com",
+    "phone": "+1-718-555-0999",
+    "address": {
+      "street": "606 Hormone Ave",
+      "city": "Brooklyn",
+      "state": "NY",
+      "zip": "11201"
+    },
+    "available_days": ["Wednesday", "Saturday"],
+    "available_time": "08:30 AM - 03:30 PM",
+    "fee": 130,
+    "currency": "USD",
+    "rating": 4.5,
+    "image": "https://plus.unsplash.com/premium_photo-1681996428751-93e0294fe98d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAwfHxkb2N0b3J8ZW58MHx8MHx8fDA%3D",
+    
+    "experience": "9 years",
+    "registration_no": "NY-20161238",
+    "current_hospital": "NewYork-Presbyterian Brooklyn Methodist Hospital"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Benjamin Scott",
+    "specialty": "Urologist",
+    "gender": "Male",
+    "email": "benjamin.scott@urologycenter.com",
+    "phone": "+1-303-555-0555",
+    "address": {
+      "street": "707 Waterworks Rd",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80202"
+    },
+    "available_days": ["Monday", "Thursday"],
+    "available_time": "09:00 AM - 04:00 PM",
+    "fee": 160,
+    "currency": "USD",
+    "rating": 4.3,
+    "image": "https://plus.unsplash.com/premium_photo-1661630723145-eeb48f1bde8b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ3fHxkb2N0b3J8ZW58MHx8MHx8fDA%3D",
+    
+    "experience": "10 years",
+    "registration_no": "CO-20140928",
+    "current_hospital": "UCHealth University of Colorado Hospital"
+  },
+  {
+    "id": 11,
+    "name": "Dr. Sophia Reyes",
+    "specialty": "Gynecologist",
+    "gender": "Female",
+    "email": "sophia.reyes@gyncenter.com",
+    "phone": "+1-503-555-0666",
+    "address": {
+      "street": "808 Women's Health Blvd",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97201"
+    },
+    "available_days": ["Tuesday", "Friday"],
+    "available_time": "10:00 AM - 05:00 PM",
+    "fee": 125,
+    "currency": "USD",
+    "rating": 4.7,
+    "image": "https://plus.unsplash.com/premium_photo-1681995291320-d0e369cc373d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHxkb2N0b3J8ZW58MHx8MHx8fDA%3D",
+    
+    "experience": "11 years",
+    "registration_no": "OR-20131019",
+    "current_hospital": "OHSU Hospital"
+  },
+  {
+    "id": 12,
+    "name": "Dr. Ethan Green",
+    "specialty": "General Physician",
+    "gender": "Male",
+    "email": "ethan.green@familyhealth.com",
+    "phone": "+1-602-555-0777",
+    "address": {
+      "street": "909 Family Health St",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85001"
+    },
+    "available_days": ["Monday", "Wednesday", "Friday"],
+    "available_time": "08:00 AM - 02:00 PM",
+    "fee": 90,
+    "currency": "USD",
+    "rating": 4.2,
+       "image": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+
+    "experience": "6 years",
+    "registration_no": "AZ-20170345",
+    "current_hospital": "Banner – University Medical Center Phoenix"
+  }
+]

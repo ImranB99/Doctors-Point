@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "Can I schedule a doctor's appointment without calling?",
+    "answer": "Yes! Visit our website, select your preferred doctor, choose an available time slot, and confirm your booking instantly."
+  },
+  {
+    "id": 2,
+    "question": "What documents do I need for my first appointment?",
+    "answer": "Bring your ID, insurance card, medical records, current medications list, and any relevant test results."
+  },
+  {
+    "id": 3,
+    "question": "What if I need to change my appointment date?",
+    "answer": "Log into your patient portal or use the \"Reschedule\" option in your booking confirmation email."
+  },
+  {
+    "id": 4,
+    "question": "What if I need to see a doctor urgently?",
+    "answer": "We reserve slots for emergencies—call our helpline or check the website for \"Same-Day Appointments.\""
+  },
+  {
+    "id": 5,
+    "question": "What do I need for a video consultation?",
+    "answer": "Ensure a stable internet connection, a quiet space, and your medical details handy. A smartphone or laptop works!"
+  },
+  {
+    "id": 6,
+    "question": "Will my insurance cover my visit?",
+    "answer": "We accept most major insurers. Verify your plan's coverage under \"Insurance Information\" on our website."
+  },
+  {
+    "id": 7,
+    "question": "How do I refill my medication without an in-person visit?",
+    "answer": "Request refills via your patient portal, and your doctor will approve or suggest a follow-up."
+  },
+  {
+    "id": 8,
+    "question": "Where can I see my lab reports after an appointment?",
+    "answer": "Results are uploaded to your secure patient portal within 3–5 business days."
+  },
+  {
+    "id": 9,
+    "question": "Is there a fee if I cancel last-minute?",
+    "answer": "Cancellations within 24 hours may incur a fee, except for emergencies."
+  },
+  {
+    "id": 10,
+    "question": "How do I know which doctor to pick?",
+    "answer": "Check our \"Doctor Profiles\" for specialties, experience, and patient reviews—or call for recommendations."
+  },
+  {
+    "id": 11,
+    "question": "Can I visit without booking first?",
+    "answer": "Walk-ins are welcome, but booking ahead ensures shorter wait times."
+  },
+  {
+    "id": 12,
+    "question": "Do you see children and seniors?",
+    "answer": "Yes! Our doctors serve patients of all ages, from pediatrics to geriatrics."
+  }
+]
