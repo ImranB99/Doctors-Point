@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Blogs from "./../pages/Blogs";
-import { IoSearch, IoSearchCircle } from "react-icons/io5";
+import { IoSearch } from "react-icons/io5";
+import banner from "../assets/banner-img-1.png"
 
 const Hero = ({ handleSearch }) => {
   const [searchText, setSearchText] = useState("");
@@ -52,7 +53,7 @@ const Hero = ({ handleSearch }) => {
       <div className="flex gap-3  justify-center mb-8">
         <img
           className="lg:w-[576px] lg:h-[350px] md:w-[350px] md:h-[250px] border-2 w-[300px] border-white rounded-2xl shadow-lg"
-          src="/src/assets/banner-img-1.png"
+          src={banner}
           alt=""
         />
         <img
