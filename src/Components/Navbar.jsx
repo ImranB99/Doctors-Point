@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
+import Logo from "../assets/logo.png"
 
 const Navbar = () => {
   return (
@@ -39,7 +40,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/" className="flex items-center">
-            <img className="w-[30px]" src="/src/assets/logo.png" alt="logo" />
+            <img className="w-[30px]" src={Logo} alt="logo" />
             <h1 className="ml-2 text-lg font-semibold">
               Doctors<span className="mr-1"></span>Point
             </h1>

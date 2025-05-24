@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from "react";
 import DoctorsCard from "./DoctorsCard";
+import doctorImg from "../assets/success-doctor.png"
+import reviewImg from "../assets/success-review.png"
+import patientsImg from "../assets/success-patients.png"
+import stuffsImg from "../assets/success-staffs.png"
 
 const DoctorsContainer = ({ doctors }) => {
   const [displayDoctor, setDisplayDoctor]=useState([])
@@ -52,23 +56,23 @@ const DoctorsContainer = ({ doctors }) => {
 
         {/*  */}
         <div className="flex justify-center items-center  gap-5  mt-5 pb-10 flex-col sm:flex-row">
-            <div className="bg-white flex shadow-md flex-col gap-3 pt-6 pl-6 pb-6 w-[283px] rounded-2xl">
-                <img className="w-[60px] h-[60px]" src="/src/assets/success-doctor.png" alt="" />
+            <div className="bg-white shadow-md flex flex-col gap-3 pt-6 rounded-2xl pb-6 pl-6 w-[283px]">
+                <img className="w-[60px] h-[60px]" src={doctorImg} alt="" />
                 <h3 className="text-7xl font-semibold">199+</h3>
                 <p className="text-xl">Total Doctors</p>
             </div>
             <div className="bg-white shadow-md flex flex-col gap-3 pt-6 rounded-2xl pb-6 pl-6 w-[283px]">
-                <img className="w-[60px] h-[60px]" src="/src/assets/success-review.png" alt="" />
+                <img className="w-[60px] h-[60px]" src={reviewImg} alt="" />
                 <h3 className="text-7xl font-semibold">467+</h3>
                 <p className="text-xl">Total Reviews</p>
             </div>
             <div className="bg-white shadow-md rounded-2xl flex flex-col gap-3 pt-6 pb-6 pl-6 w-[283px]">
-                <img className="w-[60px] h-[60px]" src="/src/assets/success-patients.png" alt="" />
+                <img className="w-[60px] h-[60px]" src={patientsImg} alt="" />
                 <h3 className="text-7xl font-semibold">1900+</h3>
                 <p className="text-xl">Total Patients</p>
             </div>
             <div className="bg-white shadow-md rounded-2xl flex flex-col gap-3 pt-6 pl-6 pb-6 w-[283px]">
-                <img className="w-[60px] h-[60px]" src="/src/assets/success-staffs.png" alt="" />
+                <img className="w-[60px] h-[60px]" src={stuffsImg} alt="" />
                 <h3 className="text-7xl font-semibold">300+</h3>
                 <p className="text-xl">Total Stuffs</p>
             </div>
